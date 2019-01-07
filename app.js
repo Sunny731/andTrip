@@ -37,6 +37,6 @@ App({
     userInfo: null
   },
   test: function () {
-    console.log('dedede');
+    console.log('dedede')
   }
 })
