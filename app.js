@@ -35,5 +35,8 @@ App({
   },
   globalData: {
     userInfo: null
+  },
+  test: function () {
+    console.log('dedede');
   }
 })
