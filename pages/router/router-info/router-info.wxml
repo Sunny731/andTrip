@@ -20,7 +20,7 @@
             <text class="tag">热卖爆款</text>
             <text class="price">
                 <text class="num">1280</text>
-               <text> /人起</text>
+                <text> /人起</text>
             </text>
         </view>
         <view class="remark">我是备注我是备注我是备注我是备注我是备注我是备注我是备注我是备注我是备注我是备注我是备注我是备注我是备注我是备注我是备注我是备注我是备注我是备注我是备注我是备注</view>
@@ -35,7 +35,7 @@
                              bindscroll="scroll"
                              scroll-into-view="{{toView}}"
                              scroll-top="{{scrollTop}}">
-                    <view class="scroll-view-item scroll-item"  wx:for="{{10}}">
+                    <view class="scroll-view-item scroll-item" wx:for="{{10}}">
                         <view class="date-item">01/01 周二</view>
                         <view class="date-price">￥1111起</view>
                     </view>
@@ -47,5 +47,72 @@
             </view>
         </view>
     </view>
-    <view class="router-detail"></view>
+    <view class="router-detail">
+        <view class="detail-block feature">
+            <view class="title">产品特色标题</view>
+            <view class="content">产品特色文字说明产品特色文字说明产品特色文字说明产品特色文字说明产品特色文字说明</view>
+            <image class="img" src="../../../images/swiper-bg.jpg"></image>
+        </view>
+        <view class="detail-block trip">
+            <view class="title">详细行程</view>
+            <view class="days-list">
+                <view class="item" wx:for="{{5}}">
+                    <view class="item-day">
+                        <text class="day">第1天</text>
+                        <text class="location">出发地/三亚</text>
+                    </view>
+                    <view class="provide hotel ">
+                        <view class="provide-left">
+                            <view class="icon-provide icon-hotel"></view>
+                            <view class="provide-detail">住宿：</view>
+                        </view>
+                        <view class="provide-right">暹粒钻石镇酒店 或 吴哥窟文化遗址精品酒店(Angkor Heritage Boutique Hotel) 或 新暹粒镇酒店(The Siem Reap Town Hotel) 或 索万吴哥酒店</view>
+                    </view>
+                    <view class="provide eating ">
+                        <view class="provide-left">
+                            <view class="icon-provide icon-hotel"></view>
+                            <view class="provide-detail">餐饮：</view>
+                        </view>
+                        <view class="provide-right">
+                            <view class="time ">早餐：自理</view>
+                            <view class="time ">午餐：自理</view>
+                            <view class="time ">晚餐：自理</view>
+                        </view>
+                    </view>
+                    <view class="provide activity ">
+                        <view class="provide-left">
+                            <view class="icon-provide icon-hotel"></view>
+                            <view class="provide-detail">活动：</view>
+                        </view>
+                        <view class="provide-right">自由活动</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="detail-block cost">
+            <view class="title">费用说明</view>
+            <view class="content">
+                <view class="include">费用包含</view>
+                <view class="cost-list">
+                    <text class="name">交通：</text>
+                    <text class="desc">含税费团队/散客机票往返（团队机票将统一出票，散客机票因实时计价预定后即刻出票）,当地旅游巴士</text>
+                </view>
+            </view>
+        </view>
+        <view class="detail-block order">
+            <view class="title">预定须知</view>
+            <view class="content">我是预定须知我是预定须知我是预定须知我是预定须知我是预定须知</view>
+        </view>
+        <view class="detail-block order">
+            <view class="title">违约条款</view>
+            <view class="content">我是违约条款我是违约条款我是违约条款我是违约条款我是违约条款我是违约条款我是违约条款我是违约条款我是违约条款</view>
+        </view>
+    </view>
+</view>
+<view class="fixed-bottom">
+    <view class="btn-wrap">
+        <view class="btn">收藏</view>
+        <view class="btn">分享</view>
+        <view class="btn-long">立即预定</view>
+    </view>
 </view>
