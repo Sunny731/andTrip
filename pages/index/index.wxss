@@ -1,0 +1,119 @@
+.fixed-title {
+    height: 160rpx;
+    width:100%;
+}
+.fixed-title .content .input {
+    padding:10rpx 12px;
+    box-sizing:border-box;
+    height:90rpx;
+    background:#87cefa;
+}
+.fixed-title .content .input .input-btn {
+    background-color: #fff;
+    height: 70rpx;
+    line-height: 70rpx;
+    border-radius: 70rpx;
+    font-size: 30rpx;
+    text-align: center;
+    color:#999;
+}
+.swiper {
+    height:260rpx;
+    overflow: hidden;
+}
+.swiper image {
+    width: 100%;
+}
+
+.navs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20rpx;
+}
+.navs .nav {
+    width: 25%;
+    padding: 10rpx 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navs .nav image{
+    width: 110rpx;
+    height: 110rpx;
+    border-radius: 100%;
+}
+.navs .nav .name {
+    text-align: center;
+    margin-top: 6rpx;
+    font-size: 24rpx;
+    color: #666;
+}
+
+/** 消息滚动 start **/
+.message {
+    margin-top: 40rpx;
+    margin: 40rpx 20rpx 0;
+    height: 40rpx;
+    line-height:40rpx;
+    padding: 10rpx 10rpx;
+    overflow: hidden;
+    background-color: #eee;
+    border-radius: 8rpx;
+}
+.message swiper-item {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #333;
+    font-size: 24rpx;
+}
+/** 消息滚动 end **/
+
+/* 爆款推荐 start*/
+.recommends {
+    margin-top: 20rpx;
+    padding: 0 20rpx;
+}
+.recommends .title {
+    font-size: 36rpx;
+    color: #333;
+}
+.recommends .list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.recommends .list .item{
+    width: 32%;
+    margin-right: 2%;
+    margin-top: 10rpx;
+}
+.recommends .list .item:nth-child(3n) {
+    margin-right: 0;
+}
+.recommends .list .item .image {
+    padding-bottom: 100%;
+    position: relative;
+}
+.recommends .list .item image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 12rpx;
+}
+.recommends .list .item .p {
+    
+    font-size: 24rpx;
+    color: #999;
+    text-align: center;
+}
+.recommends .list .item .name {
+    margin-top: 6rpx;
+}
+.recommends .list .item .p text {
+    color: #f60;
+}
+/* 爆款推荐 end*/

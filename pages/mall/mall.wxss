@@ -1,0 +1,92 @@
+.search-top {
+    padding: 20rpx;
+    box-sizing: border-box;
+    background-color:#fff;
+    text-align: center;
+}
+.search-top input {
+    height: 70rpx;
+    line-height: 70rx;
+    background-color: #fbfbfb;
+    border-radius: 70rpx;
+    font-size: 32rpx;
+}
+
+.search-top .icon-search {
+    position: absolute;
+    top: 35rpx;
+    left: 50rpx;
+    z-index: 9;
+    width: 40rpx;
+    height: 40rpx;
+}
+
+.class-nav{
+    display:flex;
+    padding:0 20rpx;
+    height:80rpx;
+    line-height:80rpx;
+    border:1px solid #ddd;
+    border-left:none;
+    border-right:none;
+}
+.class-nav.fixed {
+    background-color:#f8f8f8;
+}
+.class-nav .nav-item {
+    flex:1;
+    position:relative;
+    text-align:center;
+    padding-right:40rpx;
+    font-size:32rpx;
+    border-right:1px solid #ddd;
+}
+.class-nav .nav-item:last-child {
+    border-right:none;
+}
+.class-nav .nav-item .icon {
+    position:absolute;
+    top:20rpx;
+    width:40rpx;
+    height:40rpx;
+}
+
+.list-wrap .list .info {
+    flex: 1;
+    color:#333;
+    font-size:28rpx;
+    font-weight:700;
+    overflow: hidden;
+}
+.list-wrap .list .info .row{
+    margin-bottom: 2rpx;
+}
+.list-wrap .list .info .title {
+    font-size:34rpx;
+}
+.list-wrap .list .info .hot-row{
+    display:flex;
+}
+.list-wrap .list .info .hot-row .hot{
+    margin-right:20rpx;
+    border:1px solid #f17070;
+    padding:4rpx 8rpx;
+    border-radius:8rpx;
+    color:#f17070;
+}
+.list-wrap .list .info .hot-row .tag{
+    line-height:50rpx;
+    color:#9271f1;
+    margin-right:6rpx;
+}
+.list-wrap .list .info .detail{
+    font-size:28rpx;
+    display: -webkit-box !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.list-wrap .list .info .price{
+}

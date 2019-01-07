@@ -1,0 +1,51 @@
+<view class="fixed-title">
+    <view class="content">
+        <view class="title">和你同行，造梦之旅</view>
+    </view>
+</view>
+<view class="swiper">
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{true}}">
+        <block wx:for="{{imgs}}" wx:key="{{item}}">
+            <swiper-item>
+                <image src="{{item}}" class="slide-image"></image>
+            </swiper-item>
+        </block>
+    </swiper>
+</view>
+<view class="router-content">
+    <view class="router-overview">
+        <view class="title">西藏桃花节双卧八日游</view>
+        <view class="desc">线路两点描述</view>
+        <view class="keyword">
+            <text class="tag">热卖爆款</text>
+            <text class="price">
+                <text class="num">1280</text>
+               <text> /人起</text>
+            </text>
+        </view>
+        <view class="remark">我是备注我是备注我是备注我是备注我是备注我是备注我是备注我是备注我是备注我是备注我是备注我是备注我是备注我是备注我是备注我是备注我是备注我是备注我是备注我是备注</view>
+        <view class="start">南京出发</view>
+        <view class="date">
+            <view class="scroll-wrap">
+                <scroll-view class="date-scroll"
+                             scroll-x="true"
+                             style="height:100rpx;white-space:nowrap"
+                             bindscrolltoupper="upper"
+                             bindscrolltolower="lower"
+                             bindscroll="scroll"
+                             scroll-into-view="{{toView}}"
+                             scroll-top="{{scrollTop}}">
+                    <view class="scroll-view-item scroll-item"  wx:for="{{10}}">
+                        <view class="date-item">01/01 周二</view>
+                        <view class="date-price">￥1111起</view>
+                    </view>
+                </scroll-view>
+            </view>
+            <view class="date-btn">
+                <view>更多</view>
+                <view>班期</view>
+            </view>
+        </view>
+    </view>
+    <view class="router-detail"></view>
+</view>

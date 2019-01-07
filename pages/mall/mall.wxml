@@ -1,0 +1,39 @@
+<view class="header">
+    <view class='search-top' bindtap="goSearch">
+        <input placeholder='请输入商品查询'/>
+        <image class='icon-search' src='../../images/icon-search.png'></image>
+    </view>
+    <view class="class-nav">
+        <view class="nav-item">
+            <text>线路分类</text>
+            <image class="icon" src="../../images/icon-up.png"></image>
+        </view>
+        <view class="nav-item">
+            <text>属性分类</text>
+            <image class="icon" src="../../images/icon-up.png"></image>
+        </view>
+        <view class="nav-item">
+            <text>筛选</text>
+            <image class="icon" src="../../images/icon-up.png"></image>
+        </view>
+    </view>
+</view>
+<view class="list-wrap">
+    <view class="list">
+        <view class="list-item" wx:for="{{mallList}}" bindtap="goRouterInfo">
+            <view class="img">
+                <image src="{{item.img}}"></image>
+            </view>
+            <view class="info">
+                <view class="title row text-overflow">{{item.title}}</view>
+                <view class="detail row text-overflow">{{item.detail}}</view>
+                <view class="hot-row row">
+                    <view class="hot text-overflow">{{item.hot}}</view>
+                    <view class="tag text-overflow" wx:for-item="item.tag">{{item.tag}}</view>
+                </view>
+                <view class="date row text-overflow">班期：{{item.date}}</view>
+                <view class="price row text-overflow">起价：{{item.price}}元</view>
+            </view>
+        </view>
+    </view>
+</view>
