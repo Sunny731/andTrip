@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {},
+  "window": {
+    "navigationBarTitleText": "和你同行 造梦之旅"
+  }
 }

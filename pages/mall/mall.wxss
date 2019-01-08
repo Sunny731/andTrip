@@ -7,7 +7,7 @@
 .search-top input {
     height: 70rpx;
     line-height: 70rx;
-    background-color: #fbfbfb;
+    background-color: #f3f3f3;
     border-radius: 70rpx;
     font-size: 32rpx;
 }
@@ -55,7 +55,7 @@
     flex: 1;
     color:#333;
     font-size:28rpx;
-    font-weight:700;
+    font-weight:400;
     overflow: hidden;
 }
 .list-wrap .list .info .row{
@@ -69,14 +69,14 @@
 }
 .list-wrap .list .info .hot-row .hot{
     margin-right:20rpx;
-    border:1px solid #f17070;
+    border:1px solid #f60;
     padding:4rpx 8rpx;
     border-radius:8rpx;
-    color:#f17070;
+    color:#f60;
 }
 .list-wrap .list .info .hot-row .tag{
     line-height:50rpx;
-    color:#9271f1;
+    color:#87cefa;
     margin-right:6rpx;
 }
 .list-wrap .list .info .detail{

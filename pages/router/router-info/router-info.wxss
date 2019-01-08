@@ -1,5 +1,8 @@
 .router-content{
-    padding:20rpx 20rpx 130rpx;
+    padding:0 0 130rpx 0;
+}
+.router-overview, .router-detail{
+    padding:0 20rpx;
 }
 .router-content .router-overview{
     margin-bottom:30rpx;
@@ -72,13 +75,33 @@
     flex:1;
 }
 .router-content .router-overview .date .date-scroll .scroll-item  .date-price{
-    color:#f00;
+    color:#f60;
 }
 .router-content .router-overview .date .date-btn{
-    color: #f00;
+    color: #f60;
     width:80rpx;
     text-align:center;
 }
+.router-nav-bar{
+    display:flex;
+    height:80rpx;
+    line-height:80rpx;
+    color:#333;
+    font-size:34rpx;
+    margin-bottom:20rpx;
+    text-align:center;
+}
+.router-nav-bar.fixed{
+    position:fixed;
+    width:100%;
+    top:0;
+    box-shadow:1px 2px 5px 1px rgba(0,0,0,.2);
+    background:#fff;
+}
+.router-nav-bar .nav{
+    flex:1;
+}
+
 .router-detail .feature{
 }
 .router-detail .title {
@@ -143,14 +166,10 @@
 }
 .fixed-bottom .btn-wrap .btn{
     width:200rpx;
+    color:#666;
 }
 .fixed-bottom .btn-wrap .btn:first-child{
-    background:#f7a067;
-    color:#fff;
-}
-.fixed-bottom .btn-wrap .btn:nth-child(2n+2){
-    background:#f98133;
-    color:#fff;
+    border-right:1px solid #ddd;
 }
 .fixed-bottom .btn-wrap .btn-long{
     flex:1;

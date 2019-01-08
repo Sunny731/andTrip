@@ -1,8 +1,8 @@
-<view class="fixed-title">
-    <view class="content">
-        <view class="title">和你同行，造梦之旅</view>
-    </view>
-</view>
+<!--<view class="fixed-title">-->
+    <!--<view class="content">-->
+        <!--<view class="title">和你同行，造梦之旅</view>-->
+    <!--</view>-->
+<!--</view>-->
 <view class="swiper">
     <swiper indicator-dots="{{indicatorDots}}" autoplay="{{true}}">
         <block wx:for="{{imgs}}" wx:key="{{item}}">
@@ -46,6 +46,12 @@
                 <view>班期</view>
             </view>
         </view>
+    </view>
+    <view class="router-nav-bar fixed">
+        <view class="nav">产品特色</view>
+        <view class="nav">详细行程</view>
+        <view class="nav">费用说明</view>
+        <view class="nav">预定须知</view>
     </view>
     <view class="router-detail">
         <view class="detail-block feature">

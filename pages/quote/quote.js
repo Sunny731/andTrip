@@ -1,17 +1,31 @@
-// pages/router/router-info/router-info.js
+// pages/quote/quote.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-      imgs: [
-          '../../../images/swiper-bg.jpg',
-          '../../../images/swiper-bg.jpg',
-          '../../../images/swiper-bg.jpg',
-      ],
-      indicatorDots: true,
+
+      hotelArray: ['1人间', '2人间', '3人间', '4人间'],
+      hotelIndex: 0,
+      date: '',
+
   },
+//住宿标准
+    bindPickerChange: function (e) {
+        console.log('picker发送选择改变，携带值为', e.detail.value);
+        this.setData({
+            hotelIndex: e.detail.value
+        })
+    },
+
+    // 日期选择
+    bindDateChange: function (e) {
+        console.log('picker发送选择改变，携带值为', e.detail.value)
+        this.setData({
+            date: e.detail.value
+        })
+    },
 
   /**
    * 生命周期函数--监听页面加载
@@ -67,9 +81,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-    //监听屏幕滚动距离
-    onPageScroll: function (e) {
-      console.log(e);
-    }
-});
+  }
+})

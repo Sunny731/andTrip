@@ -1,0 +1,39 @@
+<form class="form-wrap">
+    <view class="form-item">
+        <label class="form-item-label">意向出发日期</label>
+        <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+            <view class="picker">{{date || '请选择'}}</view>
+        </picker>
+    </view>
+    <view class="form-item">
+        <label class="form-item-label">行程天数</label>
+        <input class="form-item-control" type="number" name="input" placeholder="请输入"/>
+    </view>
+    <view class="form-item">
+        <label class="form-item-label">意向目的地及景点</label>
+        <textarea class="form-item-control" auto-height name="input" placeholder="请输入"> </textarea>
+    </view>
+    <view class="form-item">
+        <label class="form-item-label">预计人数</label>
+        <input class="form-item-control" type="number" name="input" placeholder="请输入"/>
+    </view>
+    <view class="form-item">
+        <label class="form-item-label">团队住宿标准</label>
+        <picker bindchange="bindPickerChange" value="{{hotelIndex}}" range="{{hotelArray}}">
+            <view class="picker form-item-control">{{hotelArray[hotelIndex]}}</view>
+        </picker>
+    </view>
+    <view class="form-item">
+        <label class="form-item-label">人均预算</label>
+        <input class="form-item-control" type="number" name="input" placeholder="请输入"/>
+    </view>
+    <view class="form-item">
+        <label class="form-item-label">需求备注</label>
+        <textarea class="form-item-control" auto-height name="input" placeholder="请输入"></textarea>
+    </view>
+</form>
+<view class="fixed-bottom">
+    <view class="btn-wrap">
+        <view class="btn-long">提交</view>
+    </view>
+</view>

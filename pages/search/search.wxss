@@ -15,7 +15,7 @@
 .search-top input {
     height: 70rpx;
     line-height: 70rx;
-    background-color: #fbfbfb;
+    background-color: #f3f3f3;
     border-radius: 70rpx;
     font-size: 32rpx;
 }
@@ -44,5 +44,5 @@
     -webkit-line-clamp: 2;
 }
 .list-wrap .list .info .price{
-   color:#f00;
+   color:#f60;
 }

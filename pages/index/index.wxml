@@ -1,6 +1,6 @@
 <view class="fixed-title">
     <view class="content">
-        <view class="title">和你同行，造梦之旅</view>
+        <!--<view class="title">和你同行，造梦之旅</view>-->
         <view class="input" bindtap='goSearch'>
             <view class='input-btn'>目的地/关键词</view>
         </view>
