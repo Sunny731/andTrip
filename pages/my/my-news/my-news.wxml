@@ -1,0 +1,14 @@
+<view class="list-wrap">
+    <view class="list">
+        <view class="list-item" wx:for="{{mallList}}" bindtap="goRouterInfo">
+            <view class="img">
+                <image src="{{item.img}}"></image>
+            </view>
+            <view class="info">
+                <view class="title row text-overflow">{{item.title}}</view>
+                <view class="date row text-overflow">班期：{{item.date}}</view>
+                <view class="price row text-overflow">秒杀：{{item.price}}元</view>
+            </view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,21 @@
+<view class="nav-quick">
+    <view class="nav">已支付</view>
+    <view class="nav">未支付</view>
+    <view class="nav active">未付清</view>
+</view>
+<view class='list-wrap'>
+    <view class="list">
+        <view class="list-item"  wx:for="{{searchLists}}">
+            <view class="img">
+                <image src="{{item.img}}"></image>
+            </view>
+            <view class="info">
+                <view class="title">{{item.title}}</view>
+                <view class="detail">{{item.detail}}</view>
+                <view class="price">价格：{{item.price}}元</view>
+                <view class="price">已付：{{item.price}}元</view>
+            </view>
+
+        </view>
+    </view>
+</view>

@@ -1,21 +1,32 @@
+/**固定头部**/
 .fixed-title {
     width:100%;
 }
+.fixed-title .content {
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    line-height: 80rpx;
+    font-size: 36rpx;
+    text-align: center;
+    background-color: #87cefa;
+    color: #fff;
+    font-weight: bold;
+}
 .fixed-title .content .input {
-    padding:0 20rpx;
+    padding:20rpx;
     box-sizing:border-box;
-    height:90rpx;
-    background:#87cefa;
 }
 .fixed-title .content .input .input-btn {
     background-color: #fff;
-    height: 70rpx;
-    line-height: 70rpx;
     border-radius: 70rpx;
     font-size: 30rpx;
     text-align: center;
     color:#999;
 }
+/*轮播*/
 .swiper {
     height:260rpx;
     overflow: hidden;

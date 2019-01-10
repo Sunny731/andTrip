@@ -1,0 +1,17 @@
+.nav-quick{
+    display:flex;
+    height:80rpx;
+    line-height:80rpx;
+}
+.nav-quick .nav{
+    flex:1;
+    border-right:1px solid #ddd;
+    text-align:center;
+}
+.nav-quick .nav.active{
+    background:#87cefa;
+    color:#fff;
+}
+.nav-quick .nav:last-child{
+    border-right: none;
+}

@@ -28,21 +28,4 @@
     width: 40rpx;
     height: 40rpx;
 }
-.list-wrap .list .info{
-    flex: 1;
-    color:#333;
-    overflow: hidden;
-}
-.list-wrap .list .info .detail{
-    font-size:28rpx;
-    margin:10rpx 0 20rpx 0;
-    display: -webkit-box !important;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    word-break: break-all;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-}
-.list-wrap .list .info .price{
-   color:#f60;
-}
+

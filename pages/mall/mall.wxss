@@ -88,5 +88,3 @@
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
 }
-.list-wrap .list .info .price{
-}

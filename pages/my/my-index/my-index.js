@@ -1,4 +1,4 @@
-// pages/strategy/strategy.js
+// pages/my/my-index.js
 Page({
 
     /**

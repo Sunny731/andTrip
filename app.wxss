@@ -20,8 +20,27 @@ image {
     overflow:hidden
 }
 /**列表**/
+/*search/my-notice/my-collect/my-order/my-news*/
 .list-wrap {
     padding:20rpx;
+}
+.list-wrap .list .info{
+    flex: 1;
+    color:#333;
+    overflow: hidden;
+}
+.list-wrap .list .info .detail{
+    font-size:28rpx;
+    margin:10rpx 0 10rpx 0;
+    display: -webkit-box !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.list-wrap .list .info .price{
+    color:#f60;
 }
 .list-wrap .list .list-item{
     display:flex;
@@ -33,22 +52,64 @@ image {
     overflow:hidden;
     margin-right:20rpx;
 }
-/**固定头部**/
-.fixed-title {
-    height: 80rpx;
+
+/*表单 quote/my-notice*/
+.form-wrap{
+    display:block;
+    margin-bottom:100rpx;
+}
+.form-item{
+    display:flex;
+    font-size:30rpx;
+    padding:0rpx 20rpx;
+    line-height:80rpx;
+    border-bottom:1rpx solid #ddd;
+}
+.form-item label,.form-item input,.form-item picker {
+    height:100rpx;
+    line-height:100rpx;
+    min-height:100rpx;
+}
+.form-item textarea {
+    line-height:30rpx;
+}
+.form-item .form-item-label{
+    min-width:320rpx;
+    color:#333;
+}
+.form-item .form-item-control{
+    flex:1;
+}
+/*固定屏幕最下方按钮*/
+.fixed-bottom{
+    position:fixed;
+    bottom:0;
     width:100%;
+    height:100rpx;
+    line-height:100rpx;
+    z-index:999;
+    box-sizing:border-box;
+    background:#fff;
+    text-align:center;
 }
-.fixed-title .content {
-    position: fixed;
-    z-index: 999;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 80rpx;
-    line-height: 80rpx;
-    font-size: 36rpx;
-    text-align: center;
-    background-color: #87cefa;
-    color: #fff;
-    font-weight: bold;
+.fixed-bottom .btn-wrap{
+    display:flex;
 }
+.fixed-bottom .btn-wrap .btn-long{
+    flex:1;
+    background:#f60;
+    color:#fff;
+    z-index:999;
+}
+/*随文档流按钮*/
+.btn-box{
+    height:100rpx;
+    line-height:100rpx;
+    background:#f60;
+    color:#fff;
+    text-align:center;
+    margin:0 20rpx;
+    border-radius:10rpx;
+}
+
+

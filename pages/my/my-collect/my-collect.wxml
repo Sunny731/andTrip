@@ -1,0 +1,15 @@
+<view class='list-wrap'>
+    <view class="list">
+        <view class="list-item"  wx:for="{{searchLists}}">
+            <view class="img">
+                <image src="{{item.img}}"></image>
+            </view>
+            <view class="info">
+                <view class="title">{{item.title}}</view>
+                <view class="detail">{{item.detail}}</view>
+                <view class="price">价格：{{item.price}}元起</view>
+            </view>
+
+        </view>
+    </view>
+</view>

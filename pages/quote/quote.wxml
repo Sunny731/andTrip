@@ -32,8 +32,4 @@
         <textarea class="form-item-control" auto-height name="input" placeholder="请输入"></textarea>
     </view>
 </form>
-<view class="fixed-bottom">
-    <view class="btn-wrap">
-        <view class="btn-long">提交</view>
-    </view>
-</view>
+<view class="btn-box">提交</view>

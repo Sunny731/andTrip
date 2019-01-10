@@ -1,0 +1,55 @@
+<form class="form-wrap">
+    <view class="form-item">
+        <label class="form-item-label">出游人</label>
+        <input type="text" focus class="form-item-control" placeholder="请输入"/>
+    </view>
+    <view class="form-item">
+        <label class="form-item-label">出游时间</label>
+        <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+            <view class="picker">{{date || '请选择'}}</view>
+        </picker>
+    </view>
+    <view class="form-item">
+        <label class="form-item-label">旅游线路</label>
+        <input focus placeholder="请输入" type="text" class="form-item-control"/>
+    </view>
+    <view class="form-item">
+        <label class="form-item-label">往返交通</label>
+        <textarea class="form-item-control" auto-height name="input" placeholder="请输入"></textarea>
+    </view>
+    <view class="form-item">
+        <label class="form-item-label">重要告知</label>
+        <textarea class="form-item-control" auto-height placeholder="请输入"></textarea>
+    </view>
+    <view class="form-item">
+        <label class="form-item-label">游客名单</label>
+        <textarea class="form-item-control" auto-height placeholder="请输入游客名字，以分号分割"></textarea>
+    </view>
+    <view class="form-item">
+        <label class="form-item-label">集合时间</label>
+        <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+            <view class="picker">{{date || '请选择'}}</view>
+        </picker>
+    </view>
+    <view class="form-item">
+        <label class="form-item-label">集合地点</label>
+        <input placeholder="请输入" type="text" class="form-item-control"/>
+    </view>
+    <view class="form-item">
+        <label class="form-item-label">目的接站</label>
+        <input placeholder="请输入" type="text" class="form-item-control"/>
+    </view>
+    <view class="form-item">
+        <label class="form-item-label">全程24h客服</label>
+        <textarea class="form-item-control" auto-height placeholder="请输入且换行显示"></textarea>
+    </view>
+    <view class="form-item">
+        <label class="form-item-label">详细行程</label>
+        <textarea class="form-item-control" auto-height placeholder="请输入"></textarea>
+    </view>
+    <view class="form-item">
+        <label class="form-item-label">注意事项</label>
+        <textarea class="form-item-control" auto-height placeholder="请输入"></textarea>
+    </view>
+</form>
+<view class="btn-box">发送</view>
