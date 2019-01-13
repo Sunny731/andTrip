@@ -1,2 +1,34 @@
-<!--pages/my/my-index.wxml-->
-<text>pages/my/my.wxml</text>
+<view class="my-card">
+    <image class="user-img" src="../../../images/icon-1.jpg"></image>
+    <view class="user-info">
+        <view class="user-row name">Echo</view>
+        <view class="user-row mobile">13398073456</view>
+        <view class="user-row mark">游客</view>
+    </view>
+</view>
+<view class="my-menu">
+    <view class="menu-list">
+        <view class="list-item" bindtap="goPage">
+            <image class="menu-icon" src="../../../images/collect.png"></image>
+            <view class="menu-title">我的收藏</view>
+        </view>
+        <view class="list-item">
+            <image class="menu-icon" src="../../../images/order.png"></image>
+            <view class="menu-title">我的订单</view>
+        </view>
+        <view class="list-item">
+            <image class="menu-icon" src="../../../images/notice.png"></image>
+            <view class="menu-title">出团通知</view>
+        </view>
+        <view class="list-item">
+            <image class="menu-icon" src="../../../images/news.png"></image>
+            <view class="menu-title">我的消息</view>
+
+            <view class="men-other">10</view>
+        </view>
+        <view class="list-item">
+            <image class="menu-icon" src="../../../images/visitiing-card.png"></image>
+            <view class="menu-title">名片海报</view>
+        </view>
+    </view>
+</view>

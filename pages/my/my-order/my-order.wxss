@@ -5,7 +5,7 @@
 }
 .nav-quick .nav{
     flex:1;
-    border-right:1px solid #ddd;
+    border-right:1rpx solid #ddd;
     text-align:center;
 }
 .nav-quick .nav.active{

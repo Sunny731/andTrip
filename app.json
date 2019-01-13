@@ -12,7 +12,8 @@
     "pages/my/my-notice/my-notice",
     "pages/my/my-collect/my-collect",
     "pages/my/my-order/my-order",
-    "pages/my/my-news/my-news"
+    "pages/my/my-news/my-news",
+    "pages/my/my-card/my-card"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -36,13 +37,13 @@
         "text": "团队询价"
       },
       {
-        "pagePath": "pages/my/my-order/my-order",
+        "pagePath": "pages/strategy/strategy-list/strategy-list",
         "iconPath": "images/strategy.png",
         "selectedIconPath": "images/strategy-selected.png",
         "text": "自助攻略"
       },
       {
-        "pagePath": "pages/my/my-collect/my-collect",
+        "pagePath": "pages/my/my-index/my-index",
         "iconPath": "images/my.png",
         "selectedIconPath": "images/my-selected.png",
         "text": "我的"

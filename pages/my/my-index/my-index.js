@@ -7,6 +7,21 @@ Page({
     data: {
 
     },
+    goPage(page) {
+        let url = '';
+        switch (page) {
+            case 'collect':
+                url = '../my-collect/my-collect';
+                break;
+            case 'order':
+                url = '../my-order/my-order';
+                break;
+        }
+        wx.navigateTo({
+            url: url
+        })
+        alert('deded')
+    },
 
     /**
      * 生命周期函数--监听页面加载
